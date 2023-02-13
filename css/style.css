@@ -1,0 +1,14 @@
+nav{
+    height: 100px;
+    background-color: #2c475c;
+
+}
+
+main #section1{
+    background-color: #00c7a5;
+}
+
+main #section1 .__width{
+    width: 12em;
+    background-color: #00c7a5;
+}
