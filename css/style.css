@@ -15,3 +15,12 @@ main #section1 .__width{
 main #section3 {
     background-color: #00c7a5;
 }
+
+
+footer #footer-top{
+    background-color: #3a5f7b;
+}
+
+footer #footer-bottom{
+    background-color: #2c475c;
+}
