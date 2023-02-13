@@ -9,6 +9,9 @@ main #section1{
 }
 
 main #section1 .__width{
-    width: 12em;
+    background-color: #00c7a5;
+}
+
+main #section3 {
     background-color: #00c7a5;
 }
