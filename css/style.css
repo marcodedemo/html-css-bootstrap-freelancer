@@ -1,26 +1,40 @@
-nav{
-    height: 100px;
+
+
+
+/* Backgrounds */
+
+
+nav,
+footer #footer-bottom{
     background-color: #2c475c;
-
 }
 
-main #section1{
+main #section1,
+main #section3{
+
     background-color: #00c7a5;
 }
 
-main #section1 .__width{
+main #section4 .__button{
     background-color: #00c7a5;
 }
-
-main #section3 {
-    background-color: #00c7a5;
-}
-
 
 footer #footer-top{
     background-color: #3a5f7b;
 }
 
-footer #footer-bottom{
-    background-color: #2c475c;
+
+
+/* style  */
+
+main #section1 img{
+    max-width: 200px;
+}
+
+
+.separator .__stroke{
+    width: 100px;
+    height: 3px;
+    border-radius: 1.5px;
+    background-color: white;
 }
