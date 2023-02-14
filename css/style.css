@@ -38,3 +38,10 @@ main #section1 img{
     border-radius: 1.5px;
     background-color: white;
 }
+
+.separator .__stroke_black{
+    width: 100px;
+    height: 3px;
+    border-radius: 1.5px;
+    background-color: black;
+}
