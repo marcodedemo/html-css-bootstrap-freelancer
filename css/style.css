@@ -1,17 +1,12 @@
-
-
-
 /* Backgrounds */
-
 
 nav,
 footer #footer-bottom{
-    background-color: #2c475c;
+    background-color: #2c475c !important;
 }
 
 main #section1,
 main #section3{
-
     background-color: #00c7a5;
 }
 
@@ -23,15 +18,13 @@ footer #footer-top{
     background-color: #3a5f7b;
 }
 
-
-
 /* style  */
 
 main #section1 img{
     max-width: 200px;
 }
 
-
+ /* separators */
 .separator .__stroke{
     width: 100px;
     height: 3px;
@@ -44,4 +37,8 @@ main #section1 img{
     height: 3px;
     border-radius: 1.5px;
     background-color: black;
+}
+
+footer .__green_text{
+    color: #00c7a5;
 }

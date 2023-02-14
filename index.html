@@ -19,32 +19,36 @@
 <body>
 
 
-    <!-- navbar -->
-    <nav class="text-white text-uppercase fw-bold py-4">
-
-        <!-- navbar container  -->
+    
+    <nav class="navbar navbar-expand-lg text-light">
         <div class="container d-flex justify-content-between">
-            
-            <!-- nav left side -->
-            <div class="nav-left">
-                start bootstrap
+
+            <a class="navbar-brand text-uppercase text-white" href="#">Start Bootstrap</a>
+
+                <div class="navbar_right">
+
+                    <button class="navbar-toggler text-white" aria-label="Toggle navigation">
+                        <i class="bi bi-list"></i>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav d-flex">
+                            
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase text-white" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase text-white" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase text-white">Contact</a>
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
             </div>
-            
-            <!-- nav right side -->
-            <div class="nav-right d-flex">
-                <ul class="d-flex list list-unstyled m-0">
-                    <li class="px-2">
-                       <a class="nav-link disabled" href="#">Portfolio</a> 
-                    </li>
-                    <li class="px-2">
-                        <a class="nav-link disabled" href="#">About</a> 
-                    </li>
-                    <li class="px-2">
-                        <a class="nav-link disabled" href="#">Contact</a> 
-                    </li>
-                </ul>
-            </div>  
-            
+
         </div>
 
     </nav>
@@ -201,7 +205,7 @@
                     </div>
                     <div class="col d-flex flex-column">
                         <strong class="text-uppercase">About freelancer</strong>
-                        <span>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</span>
+                        <span>Freelance is a free to use, open source Bootstrap theme created by <span class="__green_text">Start Bootstrap</span>.</span>
                     </div>
                 </div>
             </div>
